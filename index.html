@@ -239,7 +239,7 @@
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-        // Particle background
+        
         particlesJS("particles-js", {
             particles: {
                 number: { value: 80, density: { enable: true, value_area: 800 } },
@@ -258,7 +258,7 @@
             retina_detect: true
         });
 
-        // Typing effect
+        
         const typingElement = document.getElementById('typing');
         const text = "Yonatan Haile";
         let i = 0;
@@ -273,7 +273,7 @@
 
         typeWriter();
 
-        // Projects
+        
         const projects = [
             { name: "DAILY JOURNAL", description: "A blog-style daily journal application", url: "https://ejs-capstone-project-4.onrender.com/contact" },
             { name: "Simon's Game", description: "An interactive memory game", url: "https://yonatanhaile.github.io/Simons-game/" },
@@ -296,7 +296,7 @@
             projectsContainer.appendChild(projectElement);
         });
 
-        // Smooth scrolling
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -306,7 +306,7 @@
             });
         });
 
-        // Intersection Observer for fade-in effect and skill bar animation
+        
         const sections = document.querySelectorAll('.section');
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
